@@ -10,26 +10,23 @@ export const HeaderIcon: React.FC = () => {
     <div
       className="flex w-auto items-center"
     >
-      <Image
+      <img
         src="/svgs/pickpick.svg"
         alt="pickpick"
-        width={35}
-        height={35}
+        className="size-[35px]"
       />
       {theme === "dark" && (
-        <Image
+        <img
           src="/icons/logo-dark.png"
           alt="Logo"
-          width={60}
-          height={30}
+          className="h-[30px] w-[60px]"
         />
       )}
       {theme === "light" && (
-        <Image
+        <img
           src="/icons/logo-light.png"
           alt="Logo"
-          width={60}
-          height={30}
+          className="h-[30px] w-[60px]"
         />
       )}
 
