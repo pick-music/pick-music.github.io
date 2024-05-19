@@ -18,7 +18,7 @@ export const HeaderIcon: React.FC = () => {
       />
       {theme === "dark" && (
         <Image
-          src="/logo-dark.png"
+          src="/icons/logo-dark.png"
           alt="Logo"
           width={60}
           height={30}
@@ -26,7 +26,7 @@ export const HeaderIcon: React.FC = () => {
       )}
       {theme === "light" && (
         <Image
-          src="/logo-light.png"
+          src="/icons/logo-light.png"
           alt="Logo"
           width={60}
           height={30}
