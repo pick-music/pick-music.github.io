@@ -16,12 +16,23 @@ export const HeaderIcon: React.FC = () => {
         width={35}
         height={35}
       />
-      <Image
-        src={theme === "dark" ? "/logo-dark.png" : "/logo-light.png"}
-        alt="Logo"
-        width={60}
-        height={30}
-      />
+      {theme === "dark" && (
+        <Image
+          src="/logo-dark.png"
+          alt="Logo"
+          width={60}
+          height={30}
+        />
+      )}
+      {theme === "light" && (
+        <Image
+          src="/logo-light.png"
+          alt="Logo"
+          width={60}
+          height={30}
+        />
+      )}
+
     </div>
   )
 
